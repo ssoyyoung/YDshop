@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	mongoDB "github.com/ssoyyoung.p/clothForYD/mongoDB"
+	mongoDB "github.com/ssoyyoung.p/YDshop/mongoDB"
 )
 
 // GetClothList func

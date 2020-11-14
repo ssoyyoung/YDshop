@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ssoyyoung.p/clothForYD/model"
+	"github.com/ssoyyoung.p/YDshop/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

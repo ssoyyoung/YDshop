@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/labstack/echo"
-	"github.com/ssoyyoung.p/clothForYD/handler"
+	"github.com/ssoyyoung.p/YDshop/handler"
 )
 
 func main() {
@@ -10,6 +10,6 @@ func main() {
 
 	e.GET("/getClothList", handler.GetClothList)
 
-	e.Logger.Fatal(e.Start(":1323"))
+	e.Logger.Fatal(e.Start(":1324"))
 
 }
